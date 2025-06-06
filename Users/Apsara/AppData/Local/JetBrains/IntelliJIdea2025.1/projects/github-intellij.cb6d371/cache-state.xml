@@ -1,0 +1,30 @@
+<project version="4">
+  <component name="ExternalSystemProjectTracker"><![CDATA[{
+  "projectData": {
+    "MAVEN": {
+      "github-intellij": {
+        "settingsTracker": {
+          "isDirty": false,
+          "settingsFiles": {
+            "C:/Javaproject/github-intellij/pom.xml": 3811872260,
+            "C:/Javaproject/github-intellij/.mvn/wrapper/maven-wrapper.properties": 3046765815
+          }
+        }
+      }
+    }
+  }
+}]]></component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProcessedFilesStorage">
+    <timestamps>
+      <entry key="7816fb258d9791a3d91680f7652b4d60" value="1749208839126" />
+      <entry key="95e1bff003ac0bc6c2e1f711d49e0433" value="1749208812218" />
+    </timestamps>
+  </component>
+  <component name="RestoreUpdateTree"><![CDATA[{}]]></component>
+</project>

@@ -20,18 +20,34 @@
       <file>
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php" file-id="1405806" managing-fs="1777956946908">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="242">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="968">
+              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
         <tab><![CDATA[{"tabTitle":"AdminController.php","foregroundColor":-1536119,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"e88f89"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
       </file>
       <file>
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php" file-id="1395329" managing-fs="1777956946908">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="198">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding>
+                <element signature="e#40#97#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Controller.php","foregroundColor":-1536119,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"e88f89"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
+      </file>
+      <file>
         <entry file="file://$PROJECT_DIR$/routes/web.php" file-id="1395363" managing-fs="1777956946908">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="374">
-              <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+            <state relative-caret-position="-138">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#7#48#0#PHP" expanded="true" />
               </folding>
@@ -40,55 +56,108 @@
         </entry>
         <tab><![CDATA[{"tabTitle":"web.php","foregroundColor":-1536119,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"e88f89"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-94,1,10,-97,1,106,97,114,58,102,105,108,101,58,47,67,58,47,85,115,101,114,115,47,65,112,115,97,114,97,47,65,112,112,68,97,116,97,47,82,111,97,109,105,110,103,47,74,101,116,66,114,97,105,110,115,47,80,104,112,83,116,111,114,109,50,48,50,53,46,50,47,112,108,117,103,105,110,115,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,112,104,112,46,115,118,103]}]]></tab>
       </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/resources/views/dashboard.blade.php" file-id="1405812" managing-fs="1777956946908">
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/contact.blade.php" file-id="1460923" managing-fs="1777956946908">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="110">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="19" />
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"dashboard.blade.php","foregroundColor":-9192071,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"73bd79"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-92,1,10,-95,1,106,97,114,58,102,105,108,101,58,47,67,58,47,85,115,101,114,115,47,65,112,115,97,114,97,47,65,112,112,68,97,116,97,47,82,111,97,109,105,110,103,47,74,101,116,66,114,97,105,110,115,47,80,104,112,83,116,111,114,109,50,48,50,53,46,50,47,112,108,117,103,105,110,115,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,98,108,97,100,101,46,115,118,103]}]]></tab>
+        <tab><![CDATA[{"tabTitle":"contact.blade.php","foregroundColor":-9192071,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"73bd79"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-92,1,10,-95,1,106,97,114,58,102,105,108,101,58,47,67,58,47,85,115,101,114,115,47,65,112,115,97,114,97,47,65,112,112,68,97,116,97,47,82,111,97,109,105,110,103,47,74,101,116,66,114,97,105,110,115,47,80,104,112,83,116,111,114,109,50,48,50,53,46,50,47,112,108,117,103,105,110,115,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,98,108,97,100,101,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/resources/views/component/sidebar.blade.php" file-id="1460652" managing-fs="1777956946908">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="130">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"sidebar.blade.php","foregroundColor":-9192071,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"73bd79"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-92,1,10,-95,1,106,97,114,58,102,105,108,101,58,47,67,58,47,85,115,101,114,115,47,65,112,115,97,114,97,47,65,112,112,68,97,116,97,47,82,111,97,109,105,110,103,47,74,101,116,66,114,97,105,110,115,47,80,104,112,83,116,111,114,109,50,48,50,53,46,50,47,112,108,117,103,105,110,115,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,98,108,97,100,101,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/resources/views/layout/admin.blade.php" file-id="1460656" managing-fs="1777956946908">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="88">
+              <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"admin.blade.php","foregroundColor":-9192071,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"73bd79"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-92,1,10,-95,1,106,97,114,58,102,105,108,101,58,47,67,58,47,85,115,101,114,115,47,65,112,115,97,114,97,47,65,112,112,68,97,116,97,47,82,111,97,109,105,110,103,47,74,101,116,66,114,97,105,110,115,47,80,104,112,83,116,111,114,109,50,48,50,53,46,50,47,112,108,117,103,105,110,115,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,98,108,97,100,101,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/resources/views/dashboard.blade.php" file-id="1405812" managing-fs="1777956946908">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="440">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"dashboard.blade.php","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-92,1,10,-95,1,106,97,114,58,102,105,108,101,58,47,67,58,47,85,115,101,114,115,47,65,112,115,97,114,97,47,65,112,112,68,97,116,97,47,82,111,97,109,105,110,103,47,74,101,116,66,114,97,105,110,115,47,80,104,112,83,116,111,114,109,50,48,50,53,46,50,47,112,108,117,103,105,110,115,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,98,108,97,100,101,46,115,118,103]}]]></tab>
       </file>
       <file>
         <entry file="file://$PROJECT_DIR$/resources/views/about.blade.php" file-id="1460126" managing-fs="1777956946908">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="132">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="264">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"about.blade.php","foregroundColor":-9192071,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"73bd79"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-92,1,10,-95,1,106,97,114,58,102,105,108,101,58,47,67,58,47,85,115,101,114,115,47,65,112,115,97,114,97,47,65,112,112,68,97,116,97,47,82,111,97,109,105,110,103,47,74,101,116,66,114,97,105,110,115,47,80,104,112,83,116,111,114,109,50,48,50,53,46,50,47,112,108,117,103,105,110,115,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,98,108,97,100,101,46,115,118,103]}]]></tab>
+        <tab><![CDATA[{"tabTitle":"about.blade.php","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-92,1,10,-95,1,106,97,114,58,102,105,108,101,58,47,67,58,47,85,115,101,114,115,47,65,112,115,97,114,97,47,65,112,112,68,97,116,97,47,82,111,97,109,105,110,103,47,74,101,116,66,114,97,105,110,115,47,80,104,112,83,116,111,114,109,50,48,50,53,46,50,47,112,108,117,103,105,110,115,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,98,108,97,100,101,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/database/migrations/2026_05_21_090100_create_contacts_table.php" file-id="1461094" managing-fs="1777956946908">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="374">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"2026_05_21_090100_create_contacts_table.php","foregroundColor":-1536119,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"e88f89"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-94,1,10,-97,1,106,97,114,58,102,105,108,101,58,47,67,58,47,85,115,101,114,115,47,65,112,115,97,114,97,47,65,112,112,68,97,116,97,47,82,111,97,109,105,110,103,47,74,101,116,66,114,97,105,110,115,47,80,104,112,83,116,111,114,109,50,48,50,53,46,50,47,112,108,117,103,105,110,115,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,112,104,112,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/app/Models/Contact.php" file-id="1461115" managing-fs="1777956946908">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="258">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="e#30#84#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Contact.php","foregroundColor":-1536119,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"e88f89"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
       </file>
       <file>
         <entry file="file://$PROJECT_DIR$/resources/views/component/script.blade.php" file-id="1460053" managing-fs="1777956946908">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"script.blade.php","foregroundColor":-9192071,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"73bd79"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-92,1,10,-95,1,106,97,114,58,102,105,108,101,58,47,67,58,47,85,115,101,114,115,47,65,112,115,97,114,97,47,65,112,112,68,97,116,97,47,82,111,97,109,105,110,103,47,74,101,116,66,114,97,105,110,115,47,80,104,112,83,116,111,114,109,50,48,50,53,46,50,47,112,108,117,103,105,110,115,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,98,108,97,100,101,46,115,118,103]}]]></tab>
+        <tab><![CDATA[{"tabTitle":"script.blade.php","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-92,1,10,-95,1,106,97,114,58,102,105,108,101,58,47,67,58,47,85,115,101,114,115,47,65,112,115,97,114,97,47,65,112,112,68,97,116,97,47,82,111,97,109,105,110,103,47,74,101,116,66,114,97,105,110,115,47,80,104,112,83,116,111,114,109,50,48,50,53,46,50,47,112,108,117,103,105,110,115,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,98,108,97,100,101,46,115,118,103]}]]></tab>
       </file>
       <file>
         <entry file="file://$PROJECT_DIR$/resources/views/component/head.blade.php" file-id="1460038" managing-fs="1777956946908">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="110">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"head.blade.php","foregroundColor":-9192071,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"73bd79"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-92,1,10,-95,1,106,97,114,58,102,105,108,101,58,47,67,58,47,85,115,101,114,115,47,65,112,115,97,114,97,47,65,112,112,68,97,116,97,47,82,111,97,109,105,110,103,47,74,101,116,66,114,97,105,110,115,47,80,104,112,83,116,111,114,109,50,48,50,53,46,50,47,112,108,117,103,105,110,115,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,98,108,97,100,101,46,115,118,103]}]]></tab>
+        <tab><![CDATA[{"tabTitle":"head.blade.php","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-92,1,10,-95,1,106,97,114,58,102,105,108,101,58,47,67,58,47,85,115,101,114,115,47,65,112,115,97,114,97,47,65,112,112,68,97,116,97,47,82,111,97,109,105,110,103,47,74,101,116,66,114,97,105,110,115,47,80,104,112,83,116,111,114,109,50,48,50,53,46,50,47,112,108,117,103,105,110,115,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,98,108,97,100,101,46,115,118,103]}]]></tab>
       </file>
       <file>
         <entry file="file://$PROJECT_DIR$/resources/views/component/navbar.blade.php" file-id="1459531" managing-fs="1777956946908">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="242">
-              <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+            <state relative-caret-position="1210">
+              <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"navbar.blade.php","foregroundColor":-9192071,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"73bd79"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-92,1,10,-95,1,106,97,114,58,102,105,108,101,58,47,67,58,47,85,115,101,114,115,47,65,112,115,97,114,97,47,65,112,112,68,97,116,97,47,82,111,97,109,105,110,103,47,74,101,116,66,114,97,105,110,115,47,80,104,112,83,116,111,114,109,50,48,50,53,46,50,47,112,108,117,103,105,110,115,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,98,108,97,100,101,46,115,118,103]}]]></tab>
+        <tab><![CDATA[{"tabTitle":"navbar.blade.php","foregroundColor":-9392385,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"70aeff"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-92,1,10,-95,1,106,97,114,58,102,105,108,101,58,47,67,58,47,85,115,101,114,115,47,65,112,115,97,114,97,47,65,112,112,68,97,116,97,47,82,111,97,109,105,110,103,47,74,101,116,66,114,97,105,110,115,47,80,104,112,83,116,111,114,109,50,48,50,53,46,50,47,112,108,117,103,105,110,115,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,98,108,97,100,101,46,115,118,103]}]]></tab>
       </file>
       <file>
         <entry file="file://$PROJECT_DIR$/.env" file-id="1395308" managing-fs="1777956946908">
@@ -99,32 +168,6 @@
           </provider>
         </entry>
         <tab><![CDATA[{"tabTitle":".env","foregroundColor":-2712981,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"d69a6b"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-93,1,10,-96,1,106,97,114,58,102,105,108,101,58,47,67,58,47,85,115,101,114,115,47,65,112,115,97,114,97,47,65,112,112,68,97,116,97,47,82,111,97,109,105,110,103,47,74,101,116,66,114,97,105,110,115,47,80,104,112,83,116,111,114,109,50,48,50,53,46,50,47,112,108,117,103,105,110,115,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,101,110,118,115,46,115,118,103]}]]></tab>
-      </file>
-      <file current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Models/Student.php" file-id="1460377" managing-fs="1777956946908">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="345">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"Student.php","foregroundColor":-1536119,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"e88f89"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
-      </file>
-      <file>
-        <entry file="file://$PROJECT_DIR$/database/migrations/2026_05_21_070240_create_students_table.php" file-id="1460379" managing-fs="1777956946908">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="367">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="35" />
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="33" />
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="36" />
-              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="30" />
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="36" />
-              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="32" />
-              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-        <tab><![CDATA[{"tabTitle":"2026_05_21_070240_create_students_table.php","foregroundColor":-1536119,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"e88f89"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-94,1,10,-97,1,106,97,114,58,102,105,108,101,58,47,67,58,47,85,115,101,114,115,47,65,112,115,97,114,97,47,65,112,112,68,97,116,97,47,82,111,97,109,105,110,103,47,74,101,116,66,114,97,105,110,115,47,80,104,112,83,116,111,114,109,50,48,50,53,46,50,47,112,108,117,103,105,110,115,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,112,104,112,46,115,118,103]}]]></tab>
       </file>
     </leaf>
   </component>
@@ -143,12 +186,12 @@
       "lastUsed": 1779332873638
     },
     "PHP": {
-      "usageCount": 4,
-      "lastUsed": 1779347426925
+      "usageCount": 8,
+      "lastUsed": 1779359314265
     },
     "Blade": {
-      "usageCount": 8,
-      "lastUsed": 1779344270086
+      "usageCount": 12,
+      "lastUsed": 1779359393154
     },
     "Markdown": {
       "usageCount": 1,
@@ -171,20 +214,36 @@
   <component name="FindInProjectScope">
     <option name="directoryName" value="C:\xampp\htdocs\student_manage_system\public" />
   </component>
+  <component name="GitBranchesPopupTreeState">
+    <expand>
+      <path>
+        <item name="TreeRoot" type="a5f834f:GitBranchesTreeModel$TreeRoot" />
+        <item name="RECENT" type="98a275ee:GitBranchType$RECENT" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="IdeDocumentHistory"><![CDATA[{
   "changedPaths": [
     "C:/xampp/htdocs/student_manage_system/resources/views/home.blade.php",
     "C:/xampp/htdocs/student_manage_system/public/assets/js.js",
     "C:/xampp/htdocs/student_manage_system/resources/views/component/script.blade.php",
     "C:/xampp/htdocs/student_manage_system/resources/views/component/head.blade.php",
-    "C:/xampp/htdocs/student_manage_system/resources/views/dashboard.blade.php",
-    "C:/xampp/htdocs/student_manage_system/resources/views/about.blade.php",
-    "C:/xampp/htdocs/student_manage_system/routes/web.php",
-    "C:/xampp/htdocs/student_manage_system/app/Http/Controllers/AdminController.php",
-    "C:/xampp/htdocs/student_manage_system/resources/views/component/navbar.blade.php",
     "C:/xampp/htdocs/student_manage_system/.env",
     "C:/xampp/htdocs/student_manage_system/database/migrations/2026_05_21_070240_create_students_table.php",
-    "C:/xampp/htdocs/student_manage_system/app/Models/Student.php"
+    "C:/xampp/htdocs/student_manage_system/app/Models/Student.php",
+    "C:/xampp/htdocs/student_manage_system/resources/views/dashboard.blade.php",
+    "C:/xampp/htdocs/student_manage_system/database/migrations/2026_05_21_090100_create_contacts_table.php",
+    "C:/xampp/htdocs/student_manage_system/app/Http/Controllers/AdminController.php",
+    "C:/xampp/htdocs/student_manage_system/app/Models/Contact.php",
+    "C:/xampp/htdocs/student_manage_system/resources/views/contact.blade.php",
+    "C:/xampp/htdocs/student_manage_system/resources/views/about.blade.php",
+    "C:/xampp/htdocs/student_manage_system/resources/views/component/navbar.blade.php",
+    "C:/xampp/htdocs/student_manage_system/app/Http/Controllers/StudentController.php",
+    "C:/xampp/htdocs/student_manage_system/resources/views/index.blade.php",
+    "C:/xampp/htdocs/student_manage_system/resources/views/component/sidebar.blade.php",
+    "C:/xampp/htdocs/student_manage_system/resources/views/layout/admin.blade.php",
+    "C:/xampp/htdocs/student_manage_system/routes/web.php"
   ]
 }]]></component>
   <component name="IgnoredFileRootStore">
@@ -196,7 +255,7 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="Blade">
-      <summary usageCount="8" lastUsage="1779344270086" />
+      <summary usageCount="12" lastUsage="1779359393154" />
     </language>
     <language id="CSS">
       <summary usageCount="1" lastUsage="1779333257305" />
@@ -211,7 +270,7 @@
       <summary usageCount="1" lastUsage="1779329774302" />
     </language>
     <language id="PHP">
-      <summary usageCount="4" lastUsage="1779347426925" />
+      <summary usageCount="8" lastUsage="1779359314265" />
     </language>
   </component>
   <component name="ProjectView">
@@ -251,6 +310,11 @@
             <path>
               <item name="student_manage_system" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file://C:/xampp/htdocs/student_manage_system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file://C:/xampp/htdocs/student_manage_system/bootstrap}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="student_manage_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file://C:/xampp/htdocs/student_manage_system}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file://C:/xampp/htdocs/student_manage_system/database}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -258,6 +322,17 @@
               <item name="dir{file://C:/xampp/htdocs/student_manage_system}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file://C:/xampp/htdocs/student_manage_system/database}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file://C:/xampp/htdocs/student_manage_system/database/migrations}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="student_manage_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file://C:/xampp/htdocs/student_manage_system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file://C:/xampp/htdocs/student_manage_system/public}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="student_manage_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file://C:/xampp/htdocs/student_manage_system}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file://C:/xampp/htdocs/student_manage_system/public}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file://C:/xampp/htdocs/student_manage_system/public/assets}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="student_manage_system" type="b2602c69:ProjectViewProjectNode" />
@@ -387,6 +462,15 @@
                   <presentation>
                     <attributes>
                       <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/app/Models/Contact.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="Contact.php" />
+                    <item name="Contact.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
                         <entry key="filePath" value="$PROJECT_DIR$/app/Models/Student.php" />
                       </map>
                     </attributes>
@@ -430,6 +514,24 @@
                 </attributes>
                 <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="bootstrap" />
                 <item name="dir{file://C:/xampp/htdocs/student_manage_system/bootstrap}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/bootstrap/cache" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="false" text="cache" />
+                  <item name="dir{file://C:/xampp/htdocs/student_manage_system/bootstrap/cache}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/bootstrap/app.php" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="app.php" />
+                  <item name="app.php" type="88303cf5:PhpFileNode" />
+                </presentation>
               </presentation>
               <presentation>
                 <attributes>
@@ -507,7 +609,7 @@
                         <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2026_05_21_070240_create_students_table.php" />
                       </map>
                     </attributes>
-                    <data isLeaf="true" text="2026_05_21_070240_create_students_table.php" />
+                    <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2026_05_21_070240_create_students_table.php" />
                     <item name="2026_05_21_070240_create_students_table.php" type="88303cf5:PhpFileNode" />
                   </presentation>
                   <presentation>
@@ -518,6 +620,15 @@
                     </attributes>
                     <data iconPath="glyphs/expui/nodes/class.svg" iconPlugin="com.mallowigi" isLeaf="true" text="2026_05_21_071608_create_teachers_table.php" />
                     <item name="2026_05_21_071608_create_teachers_table.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/database/migrations/2026_05_21_090100_create_contacts_table.php" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="2026_05_21_090100_create_contacts_table.php" />
+                    <item name="2026_05_21_090100_create_contacts_table.php" type="88303cf5:PhpFileNode" />
                   </presentation>
                 </presentation>
                 <presentation>
@@ -556,6 +667,87 @@
                 </attributes>
                 <data isLeaf="false" text="public" />
                 <item name="dir{file://C:/xampp/htdocs/student_manage_system/public}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/public/assets" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="false" text="assets" />
+                  <item name="dir{file://C:/xampp/htdocs/student_manage_system/public/assets}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/public/assets/bootstrap" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="false" text="bootstrap" />
+                    <item name="dir{file://C:/xampp/htdocs/student_manage_system/public/assets/bootstrap}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/public/assets/css" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="css" />
+                    <item name="dir{file://C:/xampp/htdocs/student_manage_system/public/assets/css}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/public/assets/img" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="false" text="img" />
+                    <item name="dir{file://C:/xampp/htdocs/student_manage_system/public/assets/img}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/public/assets/js" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/nodes/folder.svg" iconPlugin="com.mallowigi" isLeaf="true" text="js" />
+                    <item name="dir{file://C:/xampp/htdocs/student_manage_system/public/assets/js}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/public/.htaccess" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text=".htaccess" />
+                  <item name=".htaccess" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/public/favicon.ico" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="favicon.ico" />
+                  <item name="favicon.ico" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/public/index.php" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="index.php" />
+                  <item name="index.php" type="88303cf5:PhpFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/public/robots.txt" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="robots.txt" />
+                  <item name="robots.txt" type="ab9368bb:PsiFileNode" />
+                </presentation>
               </presentation>
               <presentation>
                 <attributes>
@@ -626,6 +818,24 @@
                       <data isLeaf="true" text="script.blade.php" />
                       <item name="script.blade.php" type="ab9368bb:PsiFileNode" />
                     </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/resources/views/component/sidebar.blade.php" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="sidebar.blade.php" />
+                      <item name="sidebar.blade.php" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/resources/views/layout" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="false" text="layout" />
+                    <item name="dir{file://C:/xampp/htdocs/student_manage_system/resources/views/layout}" type="462c0819:PsiDirectoryNode" />
                   </presentation>
                   <presentation>
                     <attributes>
@@ -635,6 +845,15 @@
                     </attributes>
                     <data isLeaf="true" text="about.blade.php" />
                     <item name="about.blade.php" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/resources/views/contact.blade.php" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="contact.blade.php" />
+                    <item name="contact.blade.php" type="ab9368bb:PsiFileNode" />
                   </presentation>
                   <presentation>
                     <attributes>
@@ -864,7 +1083,7 @@
     </option>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13871000" />
+    <option name="totallyTimeSpent" value="25549000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
@@ -873,8 +1092,8 @@
       <window_info id="Backup and Sync History" show_stripe_button="false" />
       <window_info id="npm" show_stripe_button="false" side_tool="true" />
       <window_info id="Pull Requests" show_stripe_button="false" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24837027" />
-      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14746094" />
+      <window_info id="Commit" order="1" weight="0.12402344" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
@@ -883,9 +1102,9 @@
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.31104296" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32944787" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3290441" />
       <window_info anchor="bottom" id="Services" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.32944787" />
+      <window_info anchor="bottom" id="Run" order="5" show_stripe_button="false" weight="0.32944787" />
       <window_info anchor="bottom" id="Find" order="6" show_stripe_button="false" weight="0.32944787" />
       <window_info anchor="right" id="make" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
@@ -895,33 +1114,34 @@
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
-      <unified_weights bottom="0.32944787" left="0.24837027" />
+      <unified_weights bottom="0.3290441" left="0.14746094" />
     </layoutV2>
     <recentWindows>
       <value>Terminal</value>
       <value>Project</value>
+      <value>Commit</value>
       <value>Find</value>
       <value>Run</value>
       <value>Version Control</value>
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
-    <state width="685" height="226" key="GridCell.Tab.0.bottom" timestamp="1779332229947">
+    <state width="685" height="226" key="GridCell.Tab.0.bottom" timestamp="1779381079850">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="685" height="226" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1779332229947" />
-    <state width="685" height="226" key="GridCell.Tab.0.center" timestamp="1779332229947">
+    <state width="685" height="226" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1779381079850" />
+    <state width="685" height="226" key="GridCell.Tab.0.center" timestamp="1779381079850">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="685" height="226" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1779332229947" />
-    <state width="685" height="226" key="GridCell.Tab.0.left" timestamp="1779332229947">
+    <state width="685" height="226" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1779381079850" />
+    <state width="685" height="226" key="GridCell.Tab.0.left" timestamp="1779381079834">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="685" height="226" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1779332229947" />
-    <state width="685" height="226" key="GridCell.Tab.0.right" timestamp="1779332229947">
+    <state width="685" height="226" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1779381079834" />
+    <state width="685" height="226" key="GridCell.Tab.0.right" timestamp="1779381079850">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="685" height="226" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1779332229947" />
+    <state width="685" height="226" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1779381079850" />
     <state x="297" y="-40" width="847" height="816" key="find.popup" timestamp="1779332500347">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -942,55 +1162,47 @@
     <entry file="file://$PROJECT_DIR$/public/assets/bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/component/script.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/component/head.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dashboard.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+        <state relative-caret-position="968">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
-            <element signature="e#7#48#0#PHP" expanded="true" />
+            <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/about.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="177">
+          <caret line="37" selection-end-line="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/component/navbar.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StudentController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2026_05_21_070240_create_students_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#7#52#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -1001,23 +1213,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2026_05_21_070240_create_students_table.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/component/navbar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="35" />
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="33" />
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="36" />
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="30" />
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="36" />
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="32" />
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="1210">
+          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Student.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/component/head.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/component/script.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#30#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2026_05_21_090100_create_contacts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/about.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/component/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#40#97#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#7#48#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>

@@ -17,5 +17,71 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
+  <component name="ProjectDependenciesModelState">
+    <option name="PROJECT_STATE" value="[{&quot;type&quot;:&quot;php&quot;,&quot;namespace&quot;:null,&quot;name&quot;:&quot;guzzlehttp/guzzle&quot;,&quot;version&quot;:{&quot;value&quot;:&quot;7.10.2&quot;},&quot;coordinates&quot;:&quot;php:null:guzzlehttp/guzzle:7.10.2&quot;,&quot;searchCoordinates&quot;:&quot;null:guzzlehttp/guzzle:7.10.2&quot;,&quot;searchKey&quot;:&quot;d5acf76b4b075ccfafcd345ad7638db11b53f8c757144187db3f810eaed205e6&quot;,&quot;humanReadableCoordinates&quot;:&quot;php:guzzlehttp/guzzle:7.10.2&quot;},{&quot;type&quot;:&quot;php&quot;,&quot;namespace&quot;:null,&quot;name&quot;:&quot;laravel/framework&quot;,&quot;version&quot;:{&quot;value&quot;:&quot;10.50.2&quot;},&quot;coordinates&quot;:&quot;php:null:laravel/framework:10.50.2&quot;,&quot;searchCoordinates&quot;:&quot;null:laravel/framework:10.50.2&quot;,&quot;searchKey&quot;:&quot;8494fc9afcf6bfe2ed2f78076e41829ac2def0bfd66533202f84ad1e917d5a68&quot;,&quot;humanReadableCoordinates&quot;:&quot;php:laravel/framework:10.50.2&quot;},{&quot;type&quot;:&quot;php&quot;,&quot;namespace&quot;:null,&quot;name&quot;:&quot;laravel/sanctum&quot;,&quot;version&quot;:{&quot;value&quot;:&quot;v3.3.3&quot;},&quot;coordinates&quot;:&quot;php:null:laravel/sanctum:v3.3.3&quot;,&quot;searchCoordinates&quot;:&quot;null:laravel/sanctum:v3.3.3&quot;,&quot;searchKey&quot;:&quot;bf07cb7a8cf58212f9bd580e346f7cc82bcb41c5bbe49d2b2b959ef4cc82b1bb&quot;,&quot;humanReadableCoordinates&quot;:&quot;php:laravel/sanctum:v3.3.3&quot;},{&quot;type&quot;:&quot;php&quot;,&quot;namespace&quot;:null,&quot;name&quot;:&quot;laravel/tinker&quot;,&quot;version&quot;:{&quot;value&quot;:&quot;v2.11.1&quot;},&quot;coordinates&quot;:&quot;php:null:laravel/tinker:v2.11.1&quot;,&quot;searchCoordinates&quot;:&quot;null:laravel/tinker:v2.11.1&quot;,&quot;searchKey&quot;:&quot;7f9b50bf8d0477df11bdda44eb165aa0cf52f400b6bcc058624d5a2483340954&quot;,&quot;humanReadableCoordinates&quot;:&quot;php:laravel/tinker:v2.11.1&quot;},{&quot;type&quot;:&quot;npm&quot;,&quot;namespace&quot;:null,&quot;name&quot;:&quot;axios&quot;,&quot;version&quot;:{&quot;value&quot;:&quot;1.16.1&quot;},&quot;coordinates&quot;:&quot;npm:null:axios:1.16.1&quot;,&quot;searchCoordinates&quot;:&quot;null:axios:1.16.1&quot;,&quot;searchKey&quot;:&quot;487ef4028f5974e2147029caa248b44e7d5cc720fe1b539ef0e2e7207c6bd559&quot;,&quot;humanReadableCoordinates&quot;:&quot;npm:axios:1.16.1&quot;},{&quot;type&quot;:&quot;npm&quot;,&quot;namespace&quot;:null,&quot;name&quot;:&quot;laravel-vite-plugin&quot;,&quot;version&quot;:{&quot;value&quot;:&quot;1.3.0&quot;},&quot;coordinates&quot;:&quot;npm:null:laravel-vite-plugin:1.3.0&quot;,&quot;searchCoordinates&quot;:&quot;null:laravel-vite-plugin:1.3.0&quot;,&quot;searchKey&quot;:&quot;00c5b509c866b5a68429fcad8204b412133d2c03858fe1b5761a592a35dcfa1a&quot;,&quot;humanReadableCoordinates&quot;:&quot;npm:laravel-vite-plugin:1.3.0&quot;},{&quot;type&quot;:&quot;npm&quot;,&quot;namespace&quot;:null,&quot;name&quot;:&quot;vite&quot;,&quot;version&quot;:{&quot;value&quot;:&quot;5.4.21&quot;},&quot;coordinates&quot;:&quot;npm:null:vite:5.4.21&quot;,&quot;searchCoordinates&quot;:&quot;null:vite:5.4.21&quot;,&quot;searchKey&quot;:&quot;1400c9f243b0b46b20cbdb133cb5eb414fbaff9a8d8eb82d3a5eb42527d1688c&quot;,&quot;humanReadableCoordinates&quot;:&quot;npm:vite:5.4.21&quot;}]" />
+  </component>
   <component name="RestoreUpdateTree"><![CDATA[{}]]></component>
+  <component name="webBundlerCache">
+    <configs>
+      <config timestamp="1707742414000" version="9" path="$PROJECT_DIR$/vite.config.js" bundlerId="Vite">
+        <configData>
+          <resolve>
+            <option name="alias">
+              <map>
+                <entry key="/^\/?@vite\/client/">
+                  <value>
+                    <alias>
+                      <option name="mappings">
+                        <list>
+                          <option value="/@fs/C:/xampp/htdocs/student_manage_system/node_modules/vite/dist/client/client.mjs" />
+                        </list>
+                      </option>
+                      <option name="pattern" value="/^\/?@vite\/client/" />
+                      <option name="regex" value="true" />
+                    </alias>
+                  </value>
+                </entry>
+                <entry key="/^\/?@vite\/env/">
+                  <value>
+                    <alias>
+                      <option name="mappings">
+                        <list>
+                          <option value="/@fs/C:/xampp/htdocs/student_manage_system/node_modules/vite/dist/client/env.mjs" />
+                        </list>
+                      </option>
+                      <option name="pattern" value="/^\/?@vite\/env/" />
+                      <option name="regex" value="true" />
+                    </alias>
+                  </value>
+                </entry>
+                <entry key="@">
+                  <value>
+                    <alias>
+                      <option name="mappings">
+                        <list>
+                          <option value="/resources/js" />
+                        </list>
+                      </option>
+                      <option name="pattern" value="@" />
+                    </alias>
+                  </value>
+                </entry>
+              </map>
+            </option>
+            <option name="extensions">
+              <list>
+                <option value=".mjs" />
+                <option value=".js" />
+                <option value=".mts" />
+                <option value=".ts" />
+                <option value=".jsx" />
+                <option value=".tsx" />
+                <option value=".json" />
+              </list>
+            </option>
+          </resolve>
+        </configData>
+      </config>
+    </configs>
+  </component>
 </project>

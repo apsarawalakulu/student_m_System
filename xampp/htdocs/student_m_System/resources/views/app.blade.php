@@ -12,10 +12,6 @@
 <!--begin::App Wrapper-->
 <div class="app-wrapper">
 
-    <!--begin::Header-->
-    @include('component.head')
-    <!--end::Header-->
-
     <!--begin::Sidebar-->
     @include('component.sidebar')
     <!--end::Sidebar-->
@@ -40,8 +36,24 @@
 
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-end">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                            <li class="breadcrumb-item">
+                                <a href="#">
+                                    <i class="bi bi-house-door-fill me-1"></i>
+                                    Home
+                                </a>
+                            </li>
+
+                            <li class="breadcrumb-item">
+                                <a href="{{ route('admin.dashboard') }}">
+                                    Dashboard
+                                </a>
+                            </li>
+
+                            <li class="breadcrumb-item">
+                                <a href="">
+                                    Back
+                                </a>
+                            </li>
                         </ol>
                     </div>
 
@@ -78,7 +90,6 @@
 </div>
 <!--end::App Wrapper-->
 
-<!--begin::Script-->
 @include('component.script')
 <!--end::Script-->
 

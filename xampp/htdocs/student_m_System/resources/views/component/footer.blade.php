@@ -1,12 +1,19 @@
-<footer class="app-footer">
-    <!--begin::To the end-->
-    <div class="float-end d-none d-sm-inline">Anything you want</div>
-    <!--end::To the end-->
-    <!--begin::Copyright-->
-    <strong>
-        Copyright &copy; 2014-2026&nbsp;
-        <a href="https://adminlte.io" class="text-decoration-none">CodeXpress</a>.
-    </strong>
-    All rights reserved.
-    <!--end::Copyright-->
+<footer class="app-footer bg-white border-top py-3 px-4">
+
+    <div class="d-flex justify-content-between align-items-center flex-wrap">
+
+        <!-- Left -->
+        <div class="text-muted small">
+            © 2014–2026
+            <strong class="text-dark">CodeXpress LMS</strong>.
+            All rights reserved.
+        </div>
+
+        <!-- Right -->
+        <div class="text-muted small">
+            Version 1.0.0 | Powered by Laravel & Bootstrap
+        </div>
+
+    </div>
+
 </footer>

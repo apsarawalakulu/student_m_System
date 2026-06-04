@@ -303,9 +303,107 @@
     sparkline3.render();
 </script>
 <!--end::Script-->
-<script src="{{ asset('assets/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
-<script src="{{ asset('assets/js/adminlte.bundle.min.js') }}"></script>
+
+<!-- Bootstrap / AdminLTE should already be in layout -->
+
+```blade
+<!-- SWEET ALERT -->
+<script src="{{ asset('assets/js/sweetalert2.all.min.js') }}"></script>
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+        // =========================
+        // SEARCH FUNCTION
+        // =========================
+
+        const searchInput = document.getElementById('searchInput');
+
+        const table = document.getElementById('studentTable');
+
+        if (searchInput && table) {
+
+            searchInput.addEventListener('keyup', function () {
+
+                let value = this.value.toLowerCase();
+
+                let rows = table.querySelectorAll('tbody tr');
+
+                rows.forEach(row => {
+
+                    let text = row.innerText.toLowerCase();
+
+                    row.style.display =
+                        text.includes(value)
+                            ? ''
+                            : 'none';
+
+                });
+
+            });
+
+        }
+
+        // =========================
+        // RESET ADD MODAL
+        // =========================
+
+        const studentModal = document.getElementById('studentModal');
+
+        if (studentModal) {
+
+            studentModal.addEventListener('hidden.bs.modal', function () {
+
+                const form = studentModal.querySelector('form');
+
+                if (form) {
+
+                    form.reset();
+
+                }
+
+            });
+
+        }
+
+    });
+
+    // =========================
+    // DELETE CONFIRM
+    // =========================
+
+    function confirmDelete(id) {
+
+        Swal.fire({
+
+            title: 'Are you sure?',
+            text: 'This students will be deleted!',
+            icon: 'warning',
+
+            showCancelButton: true,
+
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+
+            confirmButtonText: 'Yes, delete it!'
+
+        }).then((result) => {
+
+            if (result.isConfirmed) {
+
+                document.getElementById('delete-form-' + id).submit();
+
+            }
+
+        });
+
+    }
+
+</script>
+
 </body>
-<!--end::Body-->
 </html>
+
+

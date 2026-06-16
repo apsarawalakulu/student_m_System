@@ -18,8 +18,8 @@
                 <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
 
                     {{-- HEADER --}}
-                    <div class="p-4 p-md-5 text-white"
-                         style="background: linear-gradient(135deg,#0f172a,#111827);">
+                    <div class="card-header text-dark rounded-top-4 py-3"
+                         style="background: linear-gradient(135deg, #a282f1, #ffffff);">
 
                         <h2 class="fw-bold mb-2">Create Student Account</h2>
                         <p class="text-white-50 mb-0">
@@ -89,7 +89,7 @@
                                 </div>
 
                                 {{-- AGE --}}
-                                <<div class="col-md-4">
+                                <div class="col-md-4">
                                     <label>Age</label>
                                     <input type="number"
                                            name="age"
@@ -130,7 +130,7 @@
                                     Register Student
                                 </button>
 
-                                <a href="{{ route('student.index') }}"
+                                <a href="{{ route('student.list') }}"
                                    class="btn btn-outline-dark px-4 rounded-pill">
                                     View List
                                 </a>

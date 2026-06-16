@@ -10,36 +10,33 @@
 
 @section('content')
 
-    <div class="container-fluid py-4">
+
+
+    <div class="container-fluid py-4" style="background: #f5f7fb; min-height: 100vh;">
 
         <!-- HEADER -->
-        <div class="d-flex justify-content-between align-items-center mb-4 p-3 bg-white rounded-4 shadow-sm">
+        <div class="d-flex justify-content-between align-items-center mb-4 p-4 rounded-4 shadow-sm"
+             style="background: linear-gradient(135deg, #6641d6, #331481); color: white;">
 
             <div>
                 <h3 class="fw-bold mb-0">Student List</h3>
-                <small class="text-muted">Manage all registered students</small>
+                <small>Manage all registered students</small>
             </div>
 
-            <button class="btn btn-primary rounded-pill px-4 shadow-sm"
+            <button class="btn btn-light text-primary rounded-pill px-4 shadow-sm"
                     data-bs-toggle="modal"
                     data-bs-target="#studentModal">
-                 Add Student
+                + Add Student
             </button>
 
         </div>
 
 
-        <div class="d-flex justify-content-between align-items-center mb-3">
+        <div class="d-flex justify-content-between align-items-center mb-3 p-3 bg-white rounded-4 shadow-sm">
 
             <!-- LEFT BUTTONS -->
             <div class="d-flex gap-2 flex-wrap">
 
-
-                <a href="{{ route('student.index') }}"
-                   class="btn btn-dark btn-sm rounded-pill px-3 shadow-sm">
-                    <i class="bi bi-people me-1"></i>
-                    Students
-                </a>
 
 
                 @if($students->count() > 0)
@@ -52,16 +49,25 @@
                 @endif
 
                 <!-- EXPORT PDF -->
-                <button class="btn btn-danger btn-sm rounded-pill px-3 shadow-sm">
-                    <i class="bi bi-file-earmark-pdf-fill me-1"></i>
-                    Export PDF
-                </button>
+                <a href="{{ route('students.export.pdf', ['search' => request('search')]) }}"
+                    class="btn btn-outline-danger btn-sm">
+                        PDF
+                    </a>
 
                 <!-- EXPORT EXCEL -->
-                <button class="btn btn-success btn-sm rounded-pill px-3 shadow-sm">
-                    <i class="bi bi-file-earmark-excel-fill me-1"></i>
-                    Export Excel
-                </button>
+                    <a href="{{ route('students.export', ['search' => request('search')]) }}"
+                       class="btn btn-outline-success btn-sm">
+                        Excel
+                    </a>
+
+                    <!-- IMPORT -->
+                    <button class="btn btn-outline-primary btn-sm rounded-pill px-4 shadow-sm"
+                            data-bs-toggle="modal"
+                            data-bs-target="#importModal">
+                        <i class="bi bi-upload me-1"></i>
+                        Import
+                    </button>
+                    @include('students.import-modal')
 
             </div>
 
@@ -70,10 +76,15 @@
         <!-- SEARCH -->
         <div class="card border-0 shadow-sm rounded-4 mb-3">
             <div class="card-body">
-                <input type="text"
-                       id="searchInput"
-                       class="form-control"
-                       placeholder="🔍 Search students...">
+                <div class="input-group">
+                    <span class="input-group-text bg-white">🔍</span>
+                    <input type="text"
+                           id="searchInput"
+                           name="search"
+                           class="form-control border-0"
+                           placeholder="Search students...">
+
+                </div>
             </div>
         </div>
 
@@ -84,9 +95,10 @@
 
                 <div class="table-responsive">
 
-                    <table id="studentTable" class="table table-hover align-middle mb-0">
+                    <table id="studentTable"
+                           class="table table-hover align-middle bg-white rounded-4 overflow-hidden">
 
-                        <thead class="table-dark">
+                        <thead class="table-primary text-dark">
                         <tr>
                             <th>Reg No</th>
                             <th>Name</th>
@@ -115,7 +127,7 @@
                                 <td>{{ $student->age }}</td>
 
                                 <td>
-                                    @if($student->status == 'Active')
+                                    @if($student->status == 'active')
                                         <span class="badge bg-success">Active</span>
                                     @else
                                         <span class="badge bg-danger">Inactive</span>
@@ -269,7 +281,8 @@
 
             <div class="modal-content border-0 rounded-4 shadow-lg">
 
-                <div class="modal-header bg-dark text-white">
+                <div class="card-header text-dark rounded-top-4 py-3"
+                     style="background: linear-gradient(135deg, #a282f1, #ffffff);">
                     <h5 class="modal-title">Add Student</h5>
                     <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                 </div>
@@ -319,10 +332,10 @@
                             </div>
 
                             <div class="col-md-6">
-                                <select name="status" class="form-control">
-                                    <option value="">Select Status</option>
-                                    <option value="Active">Active</option>
-                                    <option value="Inactive">Inactive</option>
+                                <label>Status</label>
+                                <select name="status" class="form-control" required>
+                                    <option value="active">Active</option>
+                                    <option value="inactive">Inactive</option>
                                 </select>
                             </div>
 
@@ -347,18 +360,23 @@
     </div>
 
 
+
     {{-- ================= EDIT MODAL ================= --}}
     @foreach($students as $student)
 
         <div class="modal fade" id="editModal{{ $student->id }}" tabindex="-1">
-
             <div class="modal-dialog modal-lg modal-dialog-centered">
-
                 <div class="modal-content border-0 rounded-4 shadow-lg">
 
                     <div class="modal-header bg-dark text-white">
-                        <h5 class="modal-title">Edit Student</h5>
-                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                        <h5 class="modal-title">
+                            <i class="bi bi-pencil-square me-2"></i>
+                            Edit Student
+                        </h5>
+
+                        <button type="button"
+                                class="btn-close btn-close-white"
+                                data-bs-dismiss="modal"></button>
                     </div>
 
                     <form action="{{ route('student.update', $student->id) }}"
@@ -367,44 +385,131 @@
 
                         @csrf
                         @method('PUT')
+
                         <div class="modal-body">
 
                             <div class="row g-3">
 
+                                {{-- Reg No --}}
                                 <div class="col-md-6">
-                                    <input type="text" name="reg_no" value="{{ $student->reg_no }}" class="form-control">
+                                    <label class="form-label">Reg No</label>
+                                    <input type="text"
+                                           name="reg_no"
+                                           value="{{ $student->reg_no }}"
+                                           class="form-control">
                                 </div>
 
+                                {{-- Name --}}
                                 <div class="col-md-6">
-                                    <input type="text" name="name" value="{{ $student->name }}" class="form-control">
+                                    <label class="form-label">Name</label>
+                                    <input type="text"
+                                           name="name"
+                                           value="{{ $student->name }}"
+                                           class="form-control">
                                 </div>
 
+                                {{-- Email --}}
                                 <div class="col-md-6">
-                                    <input type="email" name="email" value="{{ $student->email }}" class="form-control">
+                                    <label class="form-label">Email</label>
+                                    <input type="email"
+                                           name="email"
+                                           value="{{ $student->email }}"
+                                           class="form-control">
                                 </div>
 
+                                {{-- Phone --}}
                                 <div class="col-md-6">
-                                    <input type="text" name="phone" value="{{ $student->phone }}" class="form-control">
+                                    <label class="form-label">Phone</label>
+                                    <input type="text"
+                                           name="phone"
+                                           value="{{ $student->phone }}"
+                                           class="form-control">
                                 </div>
 
+                                {{-- Address --}}
                                 <div class="col-md-12">
-                                    <textarea name="address" class="form-control">{{ $student->address }}</textarea>
+                                    <label class="form-label">Address</label>
+                                    <textarea name="address"
+                                              class="form-control"
+                                              rows="3">{{ $student->address }}</textarea>
                                 </div>
 
+                                {{-- DOB --}}
                                 <div class="col-md-4">
-                                    <input type="date" name="dob" value="{{ $student->dob }}" class="form-control">
+                                    <label class="form-label">DOB</label>
+                                    <input type="date"
+                                           name="dob"
+                                           value="{{ $student->dob }}"
+                                           class="form-control">
                                 </div>
 
+                                {{-- Age --}}
                                 <div class="col-md-4">
-                                    <input type="number" name="age" value="{{ $student->age }}" class="form-control">
+                                    <label class="form-label">Age</label>
+                                    <input type="number"
+                                           name="age"
+                                           value="{{ $student->age }}"
+                                           class="form-control">
                                 </div>
 
+                                {{-- NIC --}}
                                 <div class="col-md-4">
-                                    <input type="text" name="nic" value="{{ $student->nic }}" class="form-control">
+                                    <label class="form-label">NIC</label>
+                                    <input type="text"
+                                           name="nic"
+                                           value="{{ $student->nic }}"
+                                           class="form-control">
                                 </div>
 
+                                {{-- Status --}}
+                                <div class="col-md-6">
+                                    <label class="form-label">Status</label>
+
+                                    <select name="status"
+                                            class="form-select"
+                                            required>
+
+                                        <option value="active"
+                                            {{ $student->status == 'active' ? 'selected' : '' }}>
+                                            Active
+                                        </option>
+
+                                        <option value="inactive"
+                                            {{ $student->status == 'inactive' ? 'selected' : '' }}>
+                                            Inactive
+                                        </option>
+
+                                    </select>
+                                </div>
+
+                                {{-- Student Image --}}
                                 <div class="col-md-12">
-                                    <input type="file" name="img" class="form-control">
+                                    <hr>
+
+                                    <label class="form-label fw-semibold">
+                                        Student Image
+                                    </label>
+
+                                    <div class="text-center mb-3">
+
+                                        @if($student->img)
+                                            <img src="{{ asset('storage/' . $student->img) }}"
+                                                 width="120"
+                                                 height="120"
+                                                 class="rounded-circle border shadow"
+                                                 style="object-fit:cover;">
+                                        @else
+                                            <img src="https://via.placeholder.com/120"
+                                                 width="120"
+                                                 height="120"
+                                                 class="rounded-circle border shadow">
+                                        @endif
+
+                                    </div>
+
+                                    <input type="file"
+                                           name="img"
+                                           class="form-control">
                                 </div>
 
                             </div>
@@ -412,45 +517,84 @@
                         </div>
 
                         <div class="modal-footer">
-                            <button class="btn btn-warning">Update</button>
+                            <button type="button"
+                                    class="btn btn-secondary rounded-pill"
+                                    data-bs-dismiss="modal">
+                                Cancel
+                            </button>
+
+                            <button type="submit"
+                                    class="btn btn-warning rounded-pill px-4">
+                                <i class="bi bi-check-circle me-1"></i>
+                                Update Student
+                            </button>
                         </div>
 
                     </form>
 
                 </div>
-
             </div>
-
         </div>
 
     @endforeach
 
-
     {{-- ================= SCRIPT ================= --}}
     <script>
 
+
         document.addEventListener('DOMContentLoaded', function () {
 
-            const searchInput = document.getElementById('searchInput');
-            const table = document.getElementById('studentTable');
+            const input = document.getElementById('searchInput');
+            const rows = document.querySelectorAll('#studentTable tbody tr');
 
-            searchInput.addEventListener('keyup', function () {
+            input.addEventListener('keyup', function () {
 
-                let value = this.value.toLowerCase();
+                const value = input.value.trim();
 
-                table.querySelectorAll('tbody tr').forEach(row => {
-                    row.style.display = row.innerText.toLowerCase().includes(value) ? '' : 'none';
+
+                if (value === '') {
+                    rows.forEach(r => r.style.display = '');
+                    return;
+                }
+
+                const isNumber = /^[0-9]+$/.test(value);
+
+                rows.forEach(row => {
+
+                    const name = row.cells[1].innerText.trim().toLowerCase();
+                    const age  = row.cells[5].innerText.trim();
+
+                    let show = false;
+
+
+                    if (isNumber) {
+                        show = (parseInt(age) === parseInt(value));
+                    }
+
+
+                    else {
+                        show = name.includes(value.toLowerCase());
+                    }
+
+                    row.style.display = show ? '' : 'none';
                 });
 
             });
 
         });
 
-        function confirmDelete(id) {
+
+
+
+
+
+
+        // 🗑 DELETE CONFIRM
+        window.confirmDelete = function (id) {
 
             Swal.fire({
                 title: 'Are you sure?',
-                text: 'This students will be deleted!',
+                text: 'This student will be deleted!',
                 icon: 'warning',
                 showCancelButton: true,
                 confirmButtonColor: '#d33',
@@ -461,14 +605,21 @@
                 }
             });
 
-        }
-
-
-
-
+        };
 
     </script>
 
+<style>
 
+    tbody tr:hover {
+        background: #f1f7ff !important;
+        transition: 0.2s;
+    }
+
+    .table td, .table th {
+        vertical-align: middle;
+    }
+
+</style>
 
 @endsection

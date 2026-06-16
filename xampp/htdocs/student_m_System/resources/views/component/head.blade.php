@@ -1,7 +1,4 @@
-<!doctype html>
-<html lang="en">
-<!--begin::Head-->
-<head>
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>
         @stack('title')
@@ -82,12 +79,8 @@
     <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/css/jsvectormap.min.css"
-        integrity="sha256-+uGLJmmTKOqBr+2E6KDYs/NRsHxSkONXFHUL0fy2O/4="
+        integrity="sha256php-+uGLJmmTKOqBr+2E6KDYs/NRsHxSkONXFHUL0fy2O/4="
         crossorigin="anonymous"
     />
     @stack('css')
-</head>
-<!--end::Head-->
-<!--begin::Body-->
 
-<body class="hold-transition sidebar-mini layout-fixed">
